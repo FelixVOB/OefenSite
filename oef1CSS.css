@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+html, body{
+    height: 100%;
+    box-shadow: 5px 0px 10px darkgray;
+}
+html{
+    display: table;
+    margin: auto;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+    width: 650px;
+    background-color: lightgray;
+}
+body #container{
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+p{
+    line-height: 22px;
+}
+main{
+    padding: 25px;
+}
+
+h2,h3,#Ni{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section p q{
+    color: rgb(1, 1, 155);
+    font-style: italic;
+}
+.achtergrondBlauw{
+    background-color: rgb(15, 15, 58); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.achtergrondBlauw{
+    color: azure;
+    margin-bottom: 0px;
+    height: 90px;
+    text-align: left;
+    line-height: 90px;
+    padding-left: 25px;
+
+}
+a{
+    text-decoration: none;
+}
+#hier a{
+    color: burlywood;
+}
+#hier :hover{
+color: yellow;
+text-decoration: underline;
+}
+.rechts{
+    float: right;
+}
+
+.item{
+    list-style: none;
+    width: 70px;
+}
+nav ul li a{
+    color: azure;
+}
+
+section p em{
+    background-color: rgb(255, 255, 117);
+}
+
+section p strong{
+    color: green;
+    font-weight: 100;
+}
+
+.ff{
+    float: left;
+    line-height: 21px;
+    width: 230px;
+    height: 240px;
+    background-color: rgb(235, 233, 233);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    margin-right: 10px;
+}
+
+.flex-container{
+    margin-top: 45px;
+    display: flex;
+    background-color: black;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 25px;
+}
+.item :hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.chat-help{
+    position: static;
+    display: flex;
+    margin-top: -70px;
+    margin-left: 600px;
+    height: 25px;
+}
+.Lorem1{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.chat-help :hover{
+    transform: scale(1.5);
+    transform-origin: right top;
+}
+#voeter{
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
+    box-shadow: 10px 15px 10px darkgray;
+}
+#selectoren{
+    text-align: right;
+}
+#lowem{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#cee{
+    margin-top: 15px;
+}
+#htmlSelector{
+    margin-top: 10px;
+}
+h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#classSelector{
+    margin-top: 120px;
+}
